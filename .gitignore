@@ -58,3 +58,8 @@ sysinfo.txt
 *.exe
 *.app
 *.unitypackage
+
+# =========================
+# Temporary extracted archives
+# =========================
+_zip_Extracted/
