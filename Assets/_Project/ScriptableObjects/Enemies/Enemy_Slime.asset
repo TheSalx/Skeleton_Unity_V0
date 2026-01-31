@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdaaaede5e268246ba31e0b7e7dee45, type: 3}
+  m_Name: Enemy_Slime
+  m_EditorClassIdentifier: Assembly-CSharp::RogueLite.Data.EnemyDefinition
+  enemyID: slime
+  enemyName: Slime
+  enemyType: 0
+  maxHP: 20
+  moveSpeed: 2
+  damage: 5
+  attackCooldown: 1
+  attackRange: 1
+  detectionRange: 15
+  canKnockback: 1
+  knockbackResistance: 1
+  xpReward: 1
+  dropChance: 0.1
+  spawnWeight: 50
+  prefab: {fileID: 6679406503498230454, guid: f1dc9fe18132bd94c8570e719e03f4ec, type: 3}
+  scale: {x: 1, y: 1, z: 1}
+  deathEffectPrefab: {fileID: 0}
